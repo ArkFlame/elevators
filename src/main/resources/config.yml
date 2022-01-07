@@ -1,6 +1,4 @@
 messages:
-  from-command: "&eHello world from Command."
-  from-listener: "&aHello world from Listener."
-  from-task: "&dHello world from Task."
-
-task-repeat-every: 3
+  no-space: "&6There is no space to teleport you"
+  teleported: "&6You were teleported to an elevator"
+  no-elevator: "&6There is no other elevator to teleport you to"
