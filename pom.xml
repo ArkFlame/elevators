@@ -11,7 +11,7 @@
     <url>https://github.com/arkflame/elevators</url>
 
     <properties>
-        <author>2LStudios</author>
+        <author>ArkFlame</author>
         <mainClass>com.arkflame.elevators.Elevators</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

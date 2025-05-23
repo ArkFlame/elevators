@@ -12,3 +12,9 @@ messages:
   cooldown: "&cPlease wait before using the elevator again!"
   no-elevator: "&cNo elevator found in that direction!"
   unsafe-location: "&cUnsafe location! Cannot teleport."
+  help: |-
+    &e&lElevators &b&l%version% &7by &c&l%author%
+    &7How to make elevators:
+    &7- Use two signs, one with the text [up] on it
+    &7- Use the other with the text [down] on it
+    &7- Make sure the signs are on the same block
