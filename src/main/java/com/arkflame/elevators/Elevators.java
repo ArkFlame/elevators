@@ -238,7 +238,7 @@ public class Elevators extends JavaPlugin implements Listener {
 
         sender.sendMessage(ChatColor.translateAlternateColorCodes('&', config.getString("messages.help", ""))
                 .replace("%version%", getDescription().getVersion())
-                .replace("%author%", getDescription().getAuthors().toString()));
+                .replace("%author%", getDescription().getAuthors().get(0)));
         return true;
     }
 }
