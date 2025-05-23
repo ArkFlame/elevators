@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>dev._2lstudios</groupId>
+    <groupId>com.arkflame.elevators</groupId>
     <artifactId>Elevators</artifactId>
     <packaging>jar</packaging>
 
     <name>Elevators</name>
     <description>Elevators for bukkit players</description>
-    <version>0.0.1</version>
-    <url>https://github.com/2lstudios-mc/elevators</url>
+    <version>1.0.0</version>
+    <url>https://github.com/arkflame/elevators</url>
 
     <properties>
         <author>2LStudios</author>
-        <mainClass>dev._2lstudios.elevators.Elevators</mainClass>
+        <mainClass>com.arkflame.elevators.Elevators</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.18.1-R0.1-SNAPSHOT</version>
+            <version>1.21-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

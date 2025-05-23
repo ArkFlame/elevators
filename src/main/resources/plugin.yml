@@ -4,3 +4,19 @@ author: ${author}
 main: ${mainClass}
 version: ${version}
 url: ${url}
+api-version: 1.13
+
+commands:
+  elevators:
+    description: Main elevators command
+    usage: /elevators [reload]
+    permission: elevators.use
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  elevators.use:
+    description: Allows basic elevator usage
+    default: true
+  elevators.reload:
+    description: Allows reloading the plugin configuration
+    default: op

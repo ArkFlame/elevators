@@ -1,4 +1,14 @@
+# Elevators Configuration File
+# Time in seconds before a player can use an elevator again
+cooldown-seconds: 3
+
+# Maximum height to search for elevators (blocks)
+max-search-height: 128
+
+# Messages (supports color codes with &)
 messages:
-  no-space: "&6There is no space to teleport you"
-  teleported: "&6You were teleported to an elevator"
-  no-elevator: "&6There is no other elevator to teleport you to"
+  going-up: "&a✈ Going up!"
+  going-down: "&a✈ Going down!"
+  cooldown: "&cPlease wait before using the elevator again!"
+  no-elevator: "&cNo elevator found in that direction!"
+  unsafe-location: "&cUnsafe location! Cannot teleport."
