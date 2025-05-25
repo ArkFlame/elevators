@@ -200,10 +200,9 @@ public class Elevators extends JavaPlugin implements Listener {
 
         Location feet = location;
         Location head = location.clone().add(0, 1, 0);
-        Location surface = location.clone().add(0, -1, 0);
 
         // Check if both blocks above the sign are air or passable
-        return isPassable(feet.getBlock()) && isPassable(head.getBlock()) && !isPassable(surface.getBlock());
+        return isPassable(feet.getBlock()) && isPassable(head.getBlock());
     }
 
     private boolean isPassable(Block block) {
